@@ -24,7 +24,7 @@ And it also uses the router to generate URLs in the template, where we write, fo
 <a n:href="Product:detail $productId">product detail</a>
 ```
 
-and the router already compiles the URL itself from these parameters. Read more in the chapter [creating links |link-generation].
+and the router already compiles the URL itself from these parameters. Read more in the chapter [creating links].
 
 However, the router is not limited to this use, you can use it in the same way for any other cases, for the REST API, for applications where presenters are not used at all, etc. More in the section [#eparate usage].
 
